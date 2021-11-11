@@ -8,6 +8,7 @@ import { EtlapComponent } from './etlap/etlap.component';
 import { HelyszinComponent } from './helyszin/helyszin.component';
 import { AdminComponent } from './admin/admin.component';
 import { EtelComponent } from './etlap/etel.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { EtelComponent } from './etlap/etel.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
